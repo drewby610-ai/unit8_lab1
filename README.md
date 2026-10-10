@@ -11,10 +11,10 @@ https://github.com/drewby610-ai/unit8_lab1
 # Commit 1: Initial Commit
 
 ## What did you include in this commit?
--
+I included the initial Java project files, BuggyProgram.java, REAME.md, and the basic project structure needed to complete the lab.
 
 ## What was the purpose of this commit?
--
+The purpose was to establish the starting point of the project in GitHun before making changes to the code and adding tests.
 
 ---
 
@@ -53,42 +53,44 @@ The tests showed that the method crashed with different arrays, including an emp
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
--
+All four passed when I ran them. The original bug would have cause the normal range, single number, and negative range tests to fail.
 
 ## What was the issue in the code?
--
+The loop was adding 1 each time instead of the current number.
 
 ## What change did you make to fix it?
--
+In the loop, I replaced 1 with the current loop variable
 
 ## How did the tests help guide your fix?
--
+The tests verified that the method handled normal ranges, single numbers, and reversed ranges correctly after my changes.
 
 ---
 
 # Overall Reflection
 
 ## Which task was the easiest to fix? Why?
--
+Task 1 since I only needed to correct the conditions in the getGrade method to return appropriate values.
 
 ## Which task was the most difficult? Why?
--
+Task 2 was the most difficult since it had two separate bugs.
 
 ## How did Git help you track your progress through the debugging process?
--
+Git let me save progress after each task and keep a record of the changes i made.
 
 ## Why is it important to make small, frequent commits when debugging code?
--
+Small commits make it easier to identify which changes cause any problems and it is easier to return to a working version.
 
 ## What did you learn about using JUnit tests to guide debugging?
--
+Junit tests help to verify code produces the expected result. it also helps testing varius inputs and identify errors.
 
 ---
 
 # Commit 5: Final Reflection
 
 ## What did you complete or update before making this final commit?
--
+
+I completed the three debugging tasks, added JUnit tests for each method, verified all tests passed, and finished the README reflections.
+
 
 ## Why is it useful to document your work after completing a programming task?
--
+Documentation helps explain what changes were made and why they were necessary. It also eases understanding and review later on.
