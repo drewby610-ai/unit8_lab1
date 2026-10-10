@@ -53,13 +53,12 @@ The tests showed that the method crashed with different arrays, including an emp
 # Commit 4: Task 3 (sumRange)
 
 ## Which tests in Task3Test were failing before your fix?
-All four passed when I ran them. The original bug would have cause the normal range, single number, and negative range tests to fail.
-
+The reverse-range test failed because it returned 0 instead of 15.
 ## What was the issue in the code?
 The loop was adding 1 each time instead of the current number.
 
 ## What change did you make to fix it?
-In the loop, I replaced 1 with the current loop variable
+I added an if-else statement.
 
 ## How did the tests help guide your fix?
 The tests verified that the method handled normal ranges, single numbers, and reversed ranges correctly after my changes.

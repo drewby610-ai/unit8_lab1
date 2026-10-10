@@ -20,6 +20,6 @@ public class Task3Test {
 
     @Test
     void testReverseRange() {
-        assertEquals(0, BuggyProgram.sumRange(5, 1));
+        assertEquals(15, BuggyProgram.sumRange(5, 1));
     }
 }
