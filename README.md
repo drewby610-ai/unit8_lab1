@@ -37,16 +37,16 @@ The JUnit tests showed which results were incorrect. I used the failures to iden
 # Commit 3: Task 2 (sumEvenNumbers)
 
 ## Which tests in Task2Test were failing before your fix?
--
+All three tests were failing: testEvenNumbers(), testNoEvenNumbers(), and testEmptyArray().
 
 ## What was the issue in the code?
--
+The sum started at 1 instead of 0, and the loop used <= values.length, which made it access an index outside the array.
 
 ## What change did you make to fix it?
--
+I changed the starting sum to 0 and removed the = from the loop condition.
 
 ## How did the tests help guide your fix?
--
+The tests showed that the method crashed with different arrays, including an empty array. I reran the tests after my fixes and all 3 passed.
 
 ---
 
